@@ -35,9 +35,9 @@ header{
 }
 
 section{
-    /*margin-top: 200px;*/
+    margin-top: 200px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .social{
@@ -60,5 +60,17 @@ h3{
 }
 
 .buttonApresent{
-    
+    width: 140px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-family: 'poppins';
+    font-size: 15px;
 }
+
+.linkButton{
+    text-decoration: none;
+}
+
