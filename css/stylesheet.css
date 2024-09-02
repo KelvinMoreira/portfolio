@@ -7,7 +7,7 @@
 }
 
 body{
-    font-family: "Sarala", sans-serif;
+    font-family: "poppins", sans-serif;
     padding-left: 250px;
     padding-right: 250px;
 }
@@ -34,3 +34,31 @@ header{
     color: black;
 }
 
+section{
+    /*margin-top: 200px;*/
+    display: flex;
+    justify-content: space-between;
+}
+
+.social{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+h1{
+    font-size: 38px;
+}
+
+h3{
+    color: grey;
+}
+
+.apresentText{
+    width: 425px;
+    text-align: justify;
+}
+
+.buttonApresent{
+    
+}
